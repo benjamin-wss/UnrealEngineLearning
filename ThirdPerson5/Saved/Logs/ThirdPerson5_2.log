@@ -1,0 +1,83 @@
+Log file open, 09/13/14 21:43:34
+LogInit:Display: Running engine for game: ThirdPerson5
+LogInit: Version: 4.4.2-2289767+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep  8 2014 15:27:03
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.13-13.43.34:895][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.13-13.43.34:927][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.13-13.43.34:942][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.13-13.43.34:947][  0]LogInit: Object subsystem initialized
+[2014.09.13-13.43.34:948][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.13-13.43.34:948][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.13-13.43.34:955][  0]LogInit: Computer: ALIENWAREM14X
+[2014.09.13-13.43.34:955][  0]LogInit: User: benjamin
+[2014.09.13-13.43.34:956][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.13-13.43.34:956][  0]LogInit: High frequency timer resolution =2.630625 MHz
+[2014.09.13-13.43.34:956][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx) Virtual=131072.0GB
+[2014.09.13-13.43.34:956][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.13-13.43.34:956][  0]LogMemory: Process Physical Memory: 59.05 MB used, 59.05 MB peak
+[2014.09.13-13.43.34:956][  0]LogMemory: Process Virtual Memory: 38.16 MB used, 38.16 MB peak
+[2014.09.13-13.43.34:956][  0]LogMemory: Physical Memory: 4397.72 MB used, 16101.02 MB total
+[2014.09.13-13.43.34:956][  0]LogMemory: Virtual Memory: 267.94 MB used, 134217728.00 MB total
+[2014.09.13-13.43.35:019][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2014.09.13-13.43.35:019][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2014.09.13-13.43.35:043][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 765M       (Feature Level 11_0)
+[2014.09.13-13.43.35:043][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2014.09.13-13.43.35:046][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.09.13-13.43.35:046][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.09.13-13.43.35:046][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.13-13.43.35:051][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.09.13-13.43.35:068][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.13-13.43.35:198][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.13-13.43.36:594][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.13-13.43.37:069][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.13-13.43.37:131][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.13-13.43.37:191][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/benjamin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.13-13.43.37:191][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/benjamin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.13-13.43.37:191][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.13-13.43.37:191][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.13-13.43.37:207][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.13-13.43.37:219][  0]LogDerivedDataCache: Using Local data cache path C:/Users/benjamin/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.13-13.43.37:410][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.13-13.43.37:410][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.13-13.43.37:815][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.13-13.43.38:772][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2c64_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_128_0///////STATCAT_Advanced////
+[2014.09.13-13.43.38:772][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.13-13.43.38:912][  0]SourceControl: Info Source control is disabled
+[2014.09.13-13.43.38:912][  0]SourceControl: Info Source control is disabled
+[2014.09.13-13.43.38:922][  0]SourceControl: Info Source control is disabled
+[2014.09.13-13.43.39:163][  0]BlueprintLog: New page: Editor Load
+[2014.09.13-13.43.39:319][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.13-13.43.39:319][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.09.13-13.43.39:488][  0]LogEngine: Initializing Engine...
+[2014.09.13-13.43.39:589][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.09.13-13.43.39:602][  0]LogInit: FAudioDevice initialized.
+[2014.09.13-13.43.39:629][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.13-13.43.39:660][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/benjamin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.13-13.43.39:665][  0]LogInit: Texture streaming: Enabled
+[2014.09.13-13.43.39:710][  0]LogInit: Transaction tracking system initialized
+[2014.09.13-13.43.39:874][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2014.09.13-13.43.40:471][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.13-13.43.40:821][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.13-13.43.41:020][  0]LogConsoleResponse:Display: 
+[2014.09.13-13.43.41:323][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_162c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_128_0///////STATCAT_Advanced////
+[2014.09.13-13.43.41:323][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_16e8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_128_0///////STATCAT_Advanced////
+[2014.09.13-13.43.41:323][  0]SourceControl: Info Source control is disabled
+[2014.09.13-13.43.41:324][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.13-13.43.41:324][  0]LightingResults: New page: Lighting Build
+[2014.09.13-13.43.41:340][  0]MapCheck: New page: Map Check
+[2014.09.13-13.43.41:340][  0]LightingResults: New page: Lighting Build
+[2014.09.13-13.43.41:355][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001290C20860
+[2014.09.13-13.43.41:593][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.13-13.43.41:593][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.09.13-13.43.41:594][  0]Cmd: MAP CHECKDEP
+[2014.09.13-13.43.41:594][  0]MapCheck: New page: Minimal_Default - Sep 14, 2014, 5:43:41 AM
+[2014.09.13-13.43.41:760][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [166.127ms] ==========
+[2014.09.13-13.43.41:760][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.437
+[2014.09.13-13.43.41:909][  0]LogCollectionManager: Loaded 0 collections in 0.001735 seconds
+[2
