@@ -1,82 +1,195 @@
-Log file open, 09/16/14 00:50:48
+Log file open, 09/21/14 15:31:35
 LogInit:Display: Running engine for game: ThirdPerson5
-LogInit: Version: 4.4.2-2289767+++depot+UE4-Releases+4.4
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
 LogInit: API Version: 2255576
-LogInit: Compiled (64-bit): Sep  8 2014 15:27:03
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.4
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.09.15-16.50.48:183][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.09.15-16.50.48:217][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.09.15-16.50.48:331][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.09.15-16.50.48:339][  0]LogInit: Object subsystem initialized
-[2014.09.15-16.50.48:340][  0]LogInit: Selected Device Profile: [Windows]
-[2014.09.15-16.50.48:340][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.09.15-16.50.48:372][  0]LogInit: Computer: ALIENWAREM14X
-[2014.09.15-16.50.48:372][  0]LogInit: User: benjamin
-[2014.09.15-16.50.48:374][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.09.15-16.50.48:374][  0]LogInit: High frequency timer resolution =2.630625 MHz
-[2014.09.15-16.50.48:374][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx) Virtual=131072.0GB
-[2014.09.15-16.50.48:374][  0]LogMemory: Platform Memory Stats for Windows
-[2014.09.15-16.50.48:374][  0]LogMemory: Process Physical Memory: 59.78 MB used, 59.78 MB peak
-[2014.09.15-16.50.48:374][  0]LogMemory: Process Virtual Memory: 38.32 MB used, 38.32 MB peak
-[2014.09.15-16.50.48:374][  0]LogMemory: Physical Memory: 6963.64 MB used, 16101.02 MB total
-[2014.09.15-16.50.48:374][  0]LogMemory: Virtual Memory: 267.95 MB used, 134217728.00 MB total
-[2014.09.15-16.50.48:429][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2014.09.15-16.50.48:429][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
-[2014.09.15-16.50.48:447][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 765M       (Feature Level 11_0)
-[2014.09.15-16.50.48:447][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
-[2014.09.15-16.50.48:448][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2014.09.15-16.50.48:448][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2014.09.15-16.50.48:448][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.09.15-16.50.48:454][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2014.09.15-16.50.48:470][  0]LogD3D11RHI: Async texture creation enabled
-[2014.09.15-16.50.48:849][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.09.15-16.50.50:712][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.15-16.50.51:372][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.15-16.50.51:429][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.09.15-16.50.53:605][  0]LogDerivedDataCache: Loaded boot cache 2.11s 53MB C:/Users/benjamin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.09.15-16.50.53:605][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/benjamin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
-[2014.09.15-16.50.53:605][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.09.15-16.50.53:605][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.09.15-16.50.53:753][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.09.15-16.50.53:766][  0]LogDerivedDataCache: Using Local data cache path C:/Users/benjamin/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
-[2014.09.15-16.50.54:148][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.09.15-16.50.54:148][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.09.15-16.50.54:693][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.09.15-16.50.56:686][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_4730_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_323c_0///////STATCAT_Advanced////
-[2014.09.15-16.50.56:686][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.09.15-16.50.56:929][  0]SourceControl: Info Source control is disabled
-[2014.09.15-16.50.56:929][  0]SourceControl: Info Source control is disabled
-[2014.09.15-16.50.56:939][  0]SourceControl: Info Source control is disabled
-[2014.09.15-16.50.57:506][  0]BlueprintLog: New page: Editor Load
-[2014.09.15-16.50.57:780][  0]LogObj: 21438 objects as part of root set at end of initial load.
-[2014.09.15-16.50.57:780][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
-[2014.09.15-16.50.57:982][  0]LogEngine: Initializing Engine...
-[2014.09.15-16.50.58:132][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2014.09.15-16.50.58:149][  0]LogInit: FAudioDevice initialized.
-[2014.09.15-16.50.58:174][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.09.15-16.50.58:209][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/benjamin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.09.15-16.50.58:214][  0]LogInit: Texture streaming: Enabled
-[2014.09.15-16.50.58:295][  0]LogInit: Transaction tracking system initialized
-[2014.09.15-16.50.59:166][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
-[2014.09.15-16.51.00:935][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.15-16.51.01:251][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.15-16.51.01:786][  0]LogConsoleResponse:Display: 
-[2014.09.15-16.51.02:162][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2094_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_323c_0///////STATCAT_Advanced////
-[2014.09.15-16.51.02:162][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_b2c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_323c_0///////STATCAT_Advanced////
-[2014.09.15-16.51.02:162][  0]SourceControl: Info Source control is disabled
-[2014.09.15-16.51.02:162][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.09.15-16.51.02:164][  0]LightingResults: New page: Lighting Build
-[2014.09.15-16.51.02:177][  0]MapCheck: New page: Map Check
-[2014.09.15-16.51.02:177][  0]LightingResults: New page: Lighting Build
-[2014.09.15-16.51.02:189][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B69FA2C860
-[2014.09.15-16.51.02:949][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.09.15-16.51.02:949][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2014.09.15-16.51.02:949][  0]Cmd: MAP CHECKDEP
-[2014.09.15-16.51.02:950][  0]MapCheck: New page: Minimal_Default - Sep 16, 2014, 8:51:02 AM
-[2014.09.15-16.51.03:113][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [163.441ms] ==========
-[2014.09.15-16.51.03:113][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.951
-[2014.09.15-16.51.03:301][  0]LogCollectionManager: Loaded 0 collections in 0.001362 seconds
+[2014.09.21-07.31.35:582][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.21-07.31.35:616][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.21-07.31.35:723][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.21-07.31.35:729][  0]LogInit: Object subsystem initialized
+[2014.09.21-07.31.35:731][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.21-07.31.35:731][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.21-07.31.35:739][  0]LogInit: Computer: ALIENWAREM14X
+[2014.09.21-07.31.35:739][  0]LogInit: User: benjamin
+[2014.09.21-07.31.35:742][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.21-07.31.35:742][  0]LogInit: High frequency timer resolution =2.630626 MHz
+[2014.09.21-07.31.35:742][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx) Virtual=131072.0GB
+[2014.09.21-07.31.35:742][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.21-07.31.35:742][  0]LogMemory: Process Physical Memory: 59.18 MB used, 59.18 MB peak
+[2014.09.21-07.31.35:742][  0]LogMemory: Process Virtual Memory: 38.22 MB used, 38.22 MB peak
+[2014.09.21-07.31.35:742][  0]LogMemory: Physical Memory: 6048.27 MB used, 16101.02 MB total
+[2014.09.21-07.31.35:742][  0]LogMemory: Virtual Memory: 271.66 MB used, 134217728.00 MB total
+[2014.09.21-07.31.35:932][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2014.09.21-07.31.35:932][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2014.09.21-07.31.35:953][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 765M       (Feature Level 11_0)
+[2014.09.21-07.31.35:953][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2014.09.21-07.31.35:956][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.09.21-07.31.35:956][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.09.21-07.31.35:956][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.21-07.31.35:962][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.09.21-07.31.35:979][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.21-07.31.36:312][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.21-07.31.38:591][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.21-07.31.39:285][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.21-07.31.39:417][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.21-07.31.39:809][  0]LogDerivedDataCache: Loaded boot cache 0.39s 39MB C:/Users/benjamin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.21-07.31.39:809][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/benjamin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.21-07.31.39:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.21-07.31.39:809][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.21-07.31.39:882][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.21-07.31.39:896][  0]LogDerivedDataCache: Using Local data cache path C:/Users/benjamin/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.21-07.31.40:810][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.21-07.31.40:810][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.21-07.31.41:459][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.21-07.31.43:842][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_314c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1d94_0///////STATCAT_Advanced////
+[2014.09.21-07.31.43:842][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.21-07.31.44:065][  0]SourceControl: Info Source control is disabled
+[2014.09.21-07.31.44:065][  0]SourceControl: Info Source control is disabled
+[2014.09.21-07.31.44:076][  0]SourceControl: Info Source control is disabled
+[2014.09.21-07.31.44:681][  0]BlueprintLog: New page: Editor Load
+[2014.09.21-07.31.45:008][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.21-07.31.45:008][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.09.21-07.31.45:236][  0]LogEngine: Initializing Engine...
+[2014.09.21-07.31.45:361][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.09.21-07.31.45:389][  0]LogInit: FAudioDevice initialized.
+[2014.09.21-07.31.45:417][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.21-07.31.45:438][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/benjamin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.21-07.31.45:441][  0]LogInit: Texture streaming: Enabled
+[2014.09.21-07.31.45:509][  0]LogInit: Transaction tracking system initialized
+[2014.09.21-07.31.45:878][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2014.09.21-07.31.46:886][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.21-07.31.47:273][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.21-07.31.47:692][  0]LogConsoleResponse:Display: 
+[2014.09.21-07.31.48:184][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_34a8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1d94_0///////STATCAT_Advanced////
+[2014.09.21-07.31.48:184][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2bc0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1d94_0///////STATCAT_Advanced////
+[2014.09.21-07.31.48:184][  0]SourceControl: Info Source control is disabled
+[2014.09.21-07.31.48:184][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.21-07.31.48:186][  0]LightingResults: New page: Lighting Build
+[2014.09.21-07.31.48:202][  0]MapCheck: New page: Map Check
+[2014.09.21-07.31.48:202][  0]LightingResults: New page: Lighting Build
+[2014.09.21-07.31.48:216][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB5545C860
+[2014.09.21-07.31.48:896][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.21-07.31.48:896][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.09.21-07.31.48:896][  0]Cmd: MAP CHECKDEP
+[2014.09.21-07.31.48:896][  0]MapCheck: New page: Minimal_Default - Sep 21, 2014, 11:31:48 PM
+[2014.09.21-07.31.49:061][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [164.799ms] ==========
+[2014.09.21-07.31.49:061][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.877
+[2014.09.21-07.31.49:209][  0]LogCollectionManager: Loaded 0 collections in 0.001927 seconds
+[2014.09.21-07.31.49:377][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.21-07.31.49:434][  0]LogLoad: Full Startup: 16.28 seconds (BP compile: 0.12 seconds)
+[2014.09.21-07.31.49:459][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.09.21-07.31.49:688][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x888.
+[2014.09.21-07.31.49:891][  2]LogAssetRegistry: Asset discovery search completed in 4.0248 seconds
+[2014.09.21-07.54.07:388][  4]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2014.09.21-08.01.23:616][401]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.09.21-08.01.27:774][489]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.09.21-08.01.51:416][ 81]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2014.09.21-08.01.54:753][154]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.09.21-08.02.00:670][314]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.09.21-08.02.13:850][752]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.21-08.02.14:372][767]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.09.21-08.02.22:772][957]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.09.21-08.02.43:072][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.09.21-08.02.43:100][495]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB614654E0
+[2014.09.21-08.02.43:100][495]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB62DF6F20
+[2014.09.21-08.02.43:101][495]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB52865300
+[2014.09.21-08.02.43:101][495]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB62EE0400
+[2014.09.21-08.02.43:101][495]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB669A2A20
+[2014.09.21-08.02.43:109][495]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.037
+[2014.09.21-08.02.43:123][495]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/MyCharacterAnimationMontage] ([1] browsable assets)...
+[2014.09.21-08.02.43:154][495]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Character/MyCharacterAnimationMontage.MyCharacterAnimationMontage]
+[2014.09.21-08.02.43:154][495]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/MyCharacterAnimationMontage]
+[2014.09.21-08.02.43:458][495]LogSavePackage: Save=274.661987ms
+[2014.09.21-08.02.43:458][495]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/MyCharacterAnimationMontage_Auto19F58223E4776D45260A981A04CF77991.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/Autosaves/Game/Character/MyCharacterAnimationMontage_Auto1.uasset'
+[2014.09.21-08.02.43:474][495]LogFileHelpers: Auto-saving content packages took 0.365
+[2014.09.21-08.03.03:876][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/PunchingMontage" FILE="../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/PunchingMontage.uasset" SILENT=true
+[2014.09.21-08.03.04:132][ 74]LogSavePackage: Save=251.194580ms
+[2014.09.21-08.03.04:132][ 74]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/PunchingMontageF5793E804BBA80431CF37692D06F2037.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/PunchingMontage.uasset'
+[2014.09.21-08.03.04:169][ 74]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.09.21-08.03.27:236][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default" FILE="../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-08.03.27:241][730]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.09.21-08.03.27:354][730]LogSavePackage: Save=73.284454ms
+[2014.09.21-08.03.27:354][730]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/Minimal_Default1E7D14424B25CD8C7E1671BF1CFFD4E1.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Maps/Minimal_Default.umap'
+[2014.09.21-08.13.27:305][729]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.019
+[2014.09.21-08.13.27:362][729]LogSavePackage: Save=17.000135ms
+[2014.09.21-08.13.27:362][729]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/MyCharacterAnimationMontage_Auto23E34BCD246E8D85F87C23986D238B769.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/Autosaves/Game/Character/MyCharacterAnimationMontage_Auto2.uasset'
+[2014.09.21-08.13.27:379][729]LogFileHelpers: Auto-saving content packages took 0.075
+[2014.09.21-08.18.25:853][193]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.09.21-08.18.36:004][484]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2014.09.21-08.18.36:107][484]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.09.21-08.19.43:817][340]Cmd: TRANSACTION UNDO
+[2014.09.21-08.19.43:817][340]LogEditorTransaction: Undo Add Slot
+[2014.09.21-08.19.45:684][390]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.09.21-08.19.45:719][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB66B92340
+[2014.09.21-08.19.45:719][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB52864900
+[2014.09.21-08.19.45:719][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB61671760
+[2014.09.21-08.19.45:719][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB52867560
+[2014.09.21-08.19.45:719][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB669D2F20
+[2014.09.21-08.19.45:719][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB54674540
+[2014.09.21-08.19.45:719][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB546756C0
+[2014.09.21-08.19.45:719][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB669D3420
+[2014.09.21-08.19.45:719][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB54675DA0
+[2014.09.21-08.19.45:719][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB53C7C400
+[2014.09.21-08.19.45:773][390]LogSavePackage: Save=10.316175ms
+[2014.09.21-08.19.45:773][390]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/MyCharacterAnimationMontage96F7C50B48F1C444517695AC5BF0EF8F.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/MyCharacterAnimationMontage.uasset'
+[2014.09.21-08.19.45:792][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/PunchingMontage" FILE="../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/PunchingMontage.uasset" SILENT=true
+[2014.09.21-08.19.45:830][390]LogSavePackage: Save=15.944874ms
+[2014.09.21-08.19.45:830][390]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/PunchingMontage04C4747A4EDF518FF63F2A80225DDAE0.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/PunchingMontage.uasset'
+[2014.09.21-08.19.49:408][504]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_15) - call TermArticulated first.
+[2014.09.21-08.19.51:466][552]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.09.21-08.50.31:556][266]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.09.21-09.50.04:541][534]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.09.21-09.50.04:575][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB6C135DA0
+[2014.09.21-09.50.04:575][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB6C134680
+[2014.09.21-09.50.04:576][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB609D2E80
+[2014.09.21-09.50.04:576][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB61B82160
+[2014.09.21-09.50.04:576][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB61B6AC00
+[2014.09.21-09.50.04:578][534]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.037
+[2014.09.21-09.50.04:593][534]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/HeroTPP_Skeleton] ([1] browsable assets)...
+[2014.09.21-09.50.04:610][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/HeroTPP_Skeleton]
+[2014.09.21-09.50.04:696][534]LogSavePackage: Save=13.594863ms
+[2014.09.21-09.50.04:696][534]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/HeroTPP_Skeleton_Auto3F90CFF834B322BBCC5AC4DA0091DB617.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/Autosaves/Game/Character/HeroTPP_Skeleton_Auto3.uasset'
+[2014.09.21-09.50.04:714][534]LogFileHelpers: Auto-saving content packages took 0.136
+[2014.09.21-09.50.30:328][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HeroTPP_Skeleton" FILE="../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/HeroTPP_Skeleton.uasset" SILENT=true
+[2014.09.21-09.50.30:358][237]LogSavePackage: Save=12.744115ms
+[2014.09.21-09.50.30:358][237]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/HeroTPP_Skeleton5AA0703D444F82C26E2EC69386387695.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/HeroTPP_Skeleton.uasset'
+[2014.09.21-09.50.33:526][317]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.09.21-09.50.57:263][113]LogSavePackage: Save=257.991058ms
+[2014.09.21-09.50.57:263][113]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/MontageExample_Punch_21EB6381048B2BA7C5C7CDABBDC28FFE8.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/Animations/MontageExample_Punch_2.uasset'
+[2014.09.21-10.02.16:557][597]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB61BEE660
+[2014.09.21-10.02.16:557][597]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.019
+[2014.09.21-10.02.16:571][597]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/PunchingMontage] ([1] browsable assets)...
+[2014.09.21-10.02.16:585][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/PunchingMontage]
+[2014.09.21-10.02.16:664][597]LogSavePackage: Save=22.553947ms
+[2014.09.21-10.02.16:664][597]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/PunchingMontage_Auto43375EE6446438BA1E772A59806DAE759.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/Autosaves/Game/Character/PunchingMontage_Auto4.uasset'
+[2014.09.21-10.02.16:681][597]LogFileHelpers: Auto-saving content packages took 0.125
+[2014.09.21-10.07.01:889][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/PunchingMontage" FILE="../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/PunchingMontage.uasset" SILENT=true
+[2014.09.21-10.07.01:917][797]LogSavePackage: Save=7.994295ms
+[2014.09.21-10.07.01:917][797]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/PunchingMontage3C3F8F814E709F9CECD78D94F5060CA1.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/PunchingMontage.uasset'
+[2014.09.21-10.09.40:385][ 62]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB54676B60
+[2014.09.21-10.09.40:418][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/PunchingMontage" FILE="../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/PunchingMontage.uasset" SILENT=true
+[2014.09.21-10.09.40:453][ 62]LogSavePackage: Save=16.098450ms
+[2014.09.21-10.09.40:453][ 62]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/PunchingMontage54E1574D44AE9C69DDC5C9A7A37C7F81.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/PunchingMontage.uasset'
+[2014.09.21-10.12.16:907][142]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.018
+[2014.09.21-10.12.16:920][142]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/PunchingMontage] ([1] browsable assets)...
+[2014.09.21-10.12.16:932][142]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/PunchingMontage]
+[2014.09.21-10.12.17:010][142]LogSavePackage: Save=30.643656ms
+[2014.09.21-10.12.17:010][142]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/PunchingMontage_Auto51FB8875048915731CE65F4B9D10992DC.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/Autosaves/Game/Character/PunchingMontage_Auto5.uasset'
+[2014.09.21-10.12.17:026][142]LogFileHelpers: Auto-saving content packages took 0.119
+[2014.09.21-10.14.35:613][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/PunchingMontage" FILE="../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/PunchingMontage.uasset" SILENT=true
+[2014.09.21-10.14.35:646][840]LogSavePackage: Save=14.892653ms
+[2014.09.21-10.14.35:646][840]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/PunchingMontage36D508724F1A3FAF89682283102528B8.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/PunchingMontage.uasset'
+[2014.09.21-10.15.01:337][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/PunchingMontage" FILE="../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/PunchingMontage.uasset" SILENT=true
+[2014.09.21-10.15.01:372][621]LogSavePackage: Save=12.484100ms
+[2014.09.21-10.15.01:372][621]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/PunchingMontageE71DD39A495309B06FDEAD9C6F7D9E06.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Content/Character/PunchingMontage.uasset'
+[2014.09.21-10.22.17:230][604]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.019
+[2014.09.21-10.22.17:242][604]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/PunchingMontage] ([1] browsable assets)...
+[2014.09.21-10.22.17:261][604]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/PunchingMontage]
+[2014.09.21-10.22.17:322][604]LogSavePackage: Save=23.262903ms
+[2014.09.21-10.22.17:322][604]LogSavePackage: Moving '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/PunchingMontage_Auto66802CDA9423869C6E7A50AAD78BEFD3E.tmp' to '../../../../../../GitHub/UnrealEngineLearning/ThirdPerson5/Saved/Autosaves/Game/Character/PunchingMontage_Auto6.uasset'
+[2014.09.21-10.22.17:337][604]LogFileHelpers: Auto-saving content packages took 0.10
